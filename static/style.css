@@ -1195,13 +1195,11 @@ textarea:focus-visible {
         left: 3%;
         bottom: 24px;
     }
-
     .art-card.second {
         right: 3%;
         top: 24px;
     }
 }
-
 @media (min-width: 761px) {
     .stats-grid {
         grid-template-columns: repeat(5, minmax(0, 1fr));
