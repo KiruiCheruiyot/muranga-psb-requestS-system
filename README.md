@@ -2,7 +2,7 @@
 
 An educational Flask prototype for a mini eCitizen-style public service request portal. Citizens can report issues such as broken streetlights, water supply problems, garbage collection, roads and drainage, and other public service concerns.
 
-## Features
+# Features
 
 * Citizen registration and sign-in with securely hashed passwords
 * Submit service requests by category, location, title, and description
