@@ -16,7 +16,12 @@
 @media(max-width:760px){.citizen-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.history-top{align-items:flex-start;flex-direction:column;gap:3px}}
 
 @media(min-width:761px){.stats-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
-
+   .logo-mark {
+     width: 48px;
+     height: 48px;
+     object-fit: contain;
+     border-radius: 12px;
+   }
 /* Portal logo and branding */
 .portal-brand {
     display: flex;
