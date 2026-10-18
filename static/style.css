@@ -16,3 +16,46 @@
 @media(max-width:760px){.citizen-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.history-top{align-items:flex-start;flex-direction:column;gap:3px}}
 
 @media(min-width:761px){.stats-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+/* Portal logo and branding */
+.portal-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.portal-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.portal-brand-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.portal-brand-text strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #123b2a;
+}
+
+.portal-brand-text span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .portal-logo {
+        width: 52px;
+        height: 52px;
+    }
+
+    .portal-brand-text strong {
+        font-size: 1.1rem;
+    }
+}
