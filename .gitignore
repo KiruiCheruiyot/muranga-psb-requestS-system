@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+requests.db
+instance/
+# Keep the uploads directory, but ignore uploaded demo/user files
+static/uploads/*
+!static/uploads/.gitkeep
